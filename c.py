@@ -1,1 +1,1 @@
-print("file c.py")
+print("resolve conflict")
