@@ -1,0 +1,1 @@
+once use -u, you just need to type git push
