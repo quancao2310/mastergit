@@ -1,3 +1,13 @@
-abc
-def
-ghi
+git branch: list all branches.
+
+git branch <branch>: create a new branch named <branch>, referencing the same point in history as the current branch.
+
+git branch <branch> <start-point>: create a new branch named <branch>, referencing <start-point>, which may be specified any way you like, including using a branch name or a tag name.
+
+git branch -d <branch>: delete the branch <branch>; if the branch is not fully merged in its upstream branch or contained in the current branch, this command will fail with a warning.
+
+git branch -D <branch>: delete the branch <branch> irrespective of its merged status.
+
+git switch <branch>: make the current branch <branch>, updating the working directory to reflect the version referenced by <branch>.
+
+git switch -c <new> <start-point>: create a new branch <new> referencing <start-point>, and check it out.
